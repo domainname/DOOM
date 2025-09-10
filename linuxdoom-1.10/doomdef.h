@@ -141,7 +141,7 @@ typedef enum
 #define	MTF_NORMAL		2
 #define	MTF_HARD		4
 
-// Deaf monsters/do not react to sound.
+// Deaf m*nsters/do not react to sound.
 #define	MTF_AMBUSH		8
 
 typedef enum

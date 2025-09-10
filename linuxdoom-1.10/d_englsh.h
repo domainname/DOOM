@@ -50,7 +50,7 @@
 "you can't start a new game\n"\
 "while in a network game.\n\n"PRESSKEY
 
-#define NIGHTMARE	\
+#define NIGHT_MARE	\
 "are you sure? this skill level\n"\
 "isn't even remotely fair.\n\n"PRESSYN
 

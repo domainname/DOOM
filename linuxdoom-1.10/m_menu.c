@@ -308,7 +308,7 @@ enum
     toorough,
     hurtme,
     violence,
-    nightmare,
+    night_mare,
     newg_end
 } newgame_e;
 
@@ -895,20 +895,20 @@ void M_DrawEpisode(void)
     V_DrawPatchDirect (54,38,0,W_CacheLumpName("M_EPISOD",PU_CACHE));
 }
 
-void M_VerifyNightmare(int ch)
+void M_VerifyNightMare(int ch)
 {
     if (ch != 'y')
 	return;
 		
-    G_DeferedInitNew(nightmare,epi+1,1);
+    G_DeferedInitNew(night_mare,epi+1,1);
     M_ClearMenus ();
 }
 
 void M_ChooseSkill(int choice)
 {
-    if (choice == nightmare)
+    if (choice == night_mare)
     {
-	M_StartMessage(NIGHTMARE,M_VerifyNightmare,true);
+	M_StartMessage(NIGHT_MARE,M_VerifyNightMare,true);
 	return;
     }
 	
